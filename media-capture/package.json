@@ -1,0 +1,20 @@
+{
+  "name": "org.apache.cordova.pluginmediacapture",
+  "displayName": "plugin-media-capture",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "node setup.js",
+    "clean-start": "git clean -fdx -- ./ && git checkout -- ./ && npm i"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "inquirer": "^12.4.2"
+  }
+}
